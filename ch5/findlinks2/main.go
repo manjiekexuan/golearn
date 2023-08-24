@@ -56,7 +56,7 @@ func CountWordsAndImages(url string) (words, images int, err error) {
 		return
 	}
 
-	doc, err := html.Parse(resp.Body)
+	//doc, err := html.Parse(resp.Body)
 	resp.Body.Close()
 	if err != nil {
 		err = fmt.Errorf("parsing HTML:%s", err)
