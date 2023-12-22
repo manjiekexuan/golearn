@@ -14,4 +14,5 @@ require (
 	golang.org/x/crypto v0.12.0 // indirect
 	golang.org/x/sys v0.11.0 // indirect
 	golang.org/x/text v0.12.0 // indirect
+	gopl.io v0.0.0-20211004154805-1ae3ec64947b // indirect
 )
